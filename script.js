@@ -98,7 +98,7 @@ function setTurn() {
 	const turnEl = document.getElementById('gameplay-turn');
 
 	turnEl.innerHTML = `<svg class="gameplay__turn-icon">
-											<use xlink:href="./assets/images/SVG/icon-${
+											<use xlink:href="./images/SVG/icon-${
 												oTurn ? O_CLASS : X_CLASS
 											}-default.svg#icon-${
 		oTurn ? O_CLASS : X_CLASS
@@ -271,7 +271,7 @@ function setWinner() {
 	}</h4>
 	<div class="modal__result">
 		<svg class="modal__icon">
-			<use xlink:href="./assets/images/SVG/icon-${
+			<use xlink:href="./images/SVG/icon-${
 				oTurn ? O_CLASS : X_CLASS
 			}.svg#icon-${oTurn ? O_CLASS : X_CLASS}"></use>
 		</svg>
