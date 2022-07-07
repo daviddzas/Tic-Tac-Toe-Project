@@ -226,21 +226,21 @@ body {
       cursor: not-allowed;
       box-shadow: inset 0 -0.5rem 0 #0f191e; }
     .gameplay__card.x::before {
-      content: url("../images/SVG/icon-x.svg"); }
+      content: url("./images/SVG/icon-x.svg"); }
     .gameplay__card.x.win {
       background-color: #31c3bd; }
       .gameplay__card.x.win::before {
-        content: url("../images/SVG/icon-x-win.svg"); }
+        content: url("./images/SVG/icon-x-win.svg"); }
     .gameplay__card.o.win {
       background-color: #f2b137; }
       .gameplay__card.o.win::before {
-        content: url("../images/SVG/icon-o-win.svg"); }
+        content: url("./images/SVG/icon-o-win.svg"); }
     .gameplay__card.o::before {
-      content: url("../images/SVG/icon-o.svg"); }
+      content: url("./images/SVG/icon-o.svg"); }
   .gameplay__board.x .gameplay__card:not(.x):not(.o):hover::before {
-    content: url("../images/SVG/icon-x-outline.svg"); }
+    content: url("./images/SVG/icon-x-outline.svg"); }
   .gameplay__board.o .gameplay__card:not(.x):not(.o):hover::before {
-    content: url("../images/SVG/icon-o-outline.svg"); }
+    content: url("./images/SVG/icon-o-outline.svg"); }
   .gameplay__win, .gameplay__tie, .gameplay__loss {
     color: #1a2a33;
     text-transform: uppercase;
