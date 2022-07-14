@@ -98,7 +98,7 @@ function setTurn() {
 	const turnEl = document.getElementById('gameplay-turn');
 
 	turnEl.innerHTML = `<svg class="gameplay__turn-icon">
-											<use xlink:href="/images/SVG/icon-${
+											<use xlink:href="./images/SVG/icon-${
 												oTurn ? O_CLASS : X_CLASS
 											}-default.svg#icon-${
 		oTurn ? O_CLASS : X_CLASS
